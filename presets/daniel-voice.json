@@ -1,0 +1,60 @@
+{
+  "highpass_hz": 80,
+  "compressor": {
+    "threshold_db": -20,
+    "ratio": 2.5,
+    "attack_ms": 15,
+    "release_ms": 200,
+    "makeup_db": 2
+  },
+  "deess": 0.3,
+  "eq": [
+    {
+      "f": 500,
+      "width_octaves": 1.0,
+      "gain_db": -3.0
+    },
+    {
+      "f": 2000,
+      "width_octaves": 1.0,
+      "gain_db": -1.7
+    },
+    {
+      "f": 8000,
+      "width_octaves": 1.0,
+      "gain_db": 2.3
+    }
+  ],
+  "profile": {
+    "bands_hz": [
+      125,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "level_db": [
+      -4.63,
+      -2.45,
+      0.0,
+      -7.37,
+      -6.82,
+      -11.61,
+      -18.32
+    ],
+    "trend_db_per_octave": -2.36,
+    "deviation_db": [
+      -4.41,
+      0.13,
+      4.95,
+      -0.06,
+      2.86,
+      0.43,
+      -3.91
+    ],
+    "speech_frames": 21754
+  },
+  "fitted_from": "2026_10_30_13_32_50.mp3"
+}

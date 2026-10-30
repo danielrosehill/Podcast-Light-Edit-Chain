@@ -1,0 +1,17 @@
+[project]
+name = "podcast-light-edit"
+version = "0.1.0"
+description = "Light edit chain for spoken-word recordings: cut ums (Uhm ONNX), shorten long pauses, voice-fitted EQ, loudness"
+authors = [
+    { name = "Daniel Rosehill", email = "commits@danielrosehill.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=2.4.0",
+    "numpy>=2.5.4",
+    "onnxruntime>=1.31.1",
+    "soundfile>=0.14.0",
+]
+
+[tool.uv]
+package = false
